@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="encabezado">
+        <p class="textoEncabezado"><b>Medí y registrá tus entrenamientos</b></p>
+    </div>
+    <header class="tarjetaCompleta">
+        <div class= "ancho">
+            <!-- <div class="queEstasBuscando">
+                <input type="search" name="queEstasBuscando" placeholder="¿Qué estás buscando?" size="30" >
+            </div> -->
+            <div class="buscador">
+                <input type="search" name="queEstasBuscando" placeholder="¿Qué estás buscando?" size="30" >
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="assets/fotos/logo3-02.png" class="logoFharo" width="250px" alt="Logo Fharo"></a>
+            </div>
+            <nav>
+                <ul class="tarjetaMenu">
+                    <li class="menu"><a href="index.html">Inicio</a> </li>
+                    <li class="menu"><a href="smartwatchs.html">Smartwatchs</a> </li>
+                    <li class="menu"><a href="quienessomos.html">¿Quiénes somos?</a> </li>
+                    <li class="menu"><a href="blog.html">Blog</a> </li>
+                    <li class="menu"><a href="contacto.html">Contacto</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>  
+    <!-- Aca comienza el formulario -->
+    <div class="divFormulario">
+        <h1>Contáctese con nosotros</h1>
+        <br><br>
+        <form action="mailto:tomasmarkelm@gmail.com">
+            <label class="labelLeft" for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" placeholder="Escriba su nombre" required><br>
+        
+            <label class="labelLeft" for="apellido">Apellido:</label><br>
+            <input type="text" id="apellido" placeholder="Escriba su apellido" required><br>
+
+            <label class="labelLeft" for="correo">Email:</label><br>
+            <input type="email" id="correo" placeholder="Escriba su email" required><br>
+
+            <label class="labelLeft" for="mensaje">Consulta:</label> <br>
+            <textarea id="mensaje" placeholder="Escriba su mensaje" required></textarea><br>
+            
+            <input type="submit" value="Enviar">
+            
+        </form>
+    </div>
+    <footer>
+        <div class="footerPadre">
+            <div class="footerHijo1">
+                <a href="index.html"><img src="assets/fotos/logo3-02.png" width="250px" alt="Logo Fharo"></a>
+            </div>
+            <div>
+                <div class="footerHijo2">
+                    <p>Seguinos en nuestras redes sociales</p>
+                    <ul>
+                        <li><a href="https://www.instagram.com/fharo.relojes/" target="_BLANK"><img src="assets/fotos/footer/instagram.png" width="50px" title="Instagram"></a></li>
+                        <li><a href="https://www.facebook.com/fharo.relojes" target="_BLANK"><img src="assets/fotos/footer/facebook.png" width="50px" title="Facebook"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="footerHijo3">
+                    <p>Escribinos por Whatsapp</p>
+                    <ul>
+                        <li><a href="https://wa.me/543492610623" target="_BLANK"><img src="assets/fotos/footer/whatsapp.png" width="50px" title="Whatsapp"></a></li>
+                    </ul>
+                </div>
+            </div>  
+        </div>
+        <div>
+            <h4 class="copyright">Copyright Fharo 2022 - Todos los derechos reservados.</h4>
+        </div>
+    </footer>
+</body>
+</html>

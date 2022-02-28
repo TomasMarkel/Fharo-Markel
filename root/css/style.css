@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+}
+
+.encabezado {
+    background-color: #3B8CDE;
+    margin: 0%;
+    align-items: center;
+}
+.textoEncabezado {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+.tarjetaCompleta{
+    background-color: #07396B;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.queEstasBuscando {
+    width: 300px;
+    display: flex;
+    background: #fff;
+    padding: 9px 22px 9px 26px;
+    border-radius: 30px;
+    border: 2px solid #cad3dc;
+    margin-top: 130px;
+    margin-bottom: 0;
+    margin-left: 155px;
+    float:left;
+}
+
+.queEstasBuscando input {
+    border: none; 
+    background-color: transparent;
+    font-weight: bold;
+    padding-left: 40px ;
+    font-size: large;
+    background-image: url(https://image.flaticon.com/icons/png/512/116/116836.png);
+    background-size: 20px;
+    background-repeat: no-repeat ;
+}
+
+/* .logoFharo {
+    width: 250px;
+    margin-left: 900px;
+    display: block;   
+}    */
+
+.logoFharo{
+    margin-top: 10px;
+}
+
+.ancho{
+    text-align: center;
+}
+
+.buscador{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    margin-left: 200px;
+    background: #fff;
+    padding: 9px 22px 9px 26px;
+    border-radius: 30px;
+    border: 2px solid #cad3dc;
+}
+
+.buscador input{
+    outline: none;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.tarjetaMenu {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.tarjetaMenu li a {
+    text-decoration: none;
+    color: white;   
+    font-size: x-large;
+    text-align: center;
+}
+
+.menu {
+    display: inline;
+    width: 100px;
+    margin: 10px 15px 10px 15px;
+    padding: 0 14px;
+    color: white;
+    
+}
+
+.menu :hover{
+    background-color: #3B8CDE;
+    transition: .6s;
+    border-radius: 10px;
+    padding: 1px 5px 1px 5px;
+}
+
+
+.losMasBuscados {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+}
+
+.contenedorFotos {
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.foto {
+    margin: 15px;
+    display: inline;
+    width: 1500px;
+    text-align: center;
+    border: 2px solid #D3D3D3;
+    border-radius: 25px;
+}
+
+/* .foto img {
+    width: 500px;
+} */
+
+.titulow26{
+    margin-top: 45px;
+}
+
+.fotoHover :hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.foto p {
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px;
+    line-height: 22px;
+}
+
+
+.footerPadre {
+    display: flex;
+    margin-top: 500px;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #07396B;
+}
+
+
+
+.footerHijo1 img {
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.footerHijo2 { 
+    justify-content: center;
+    font-family: 'Poppins'sans-serif;
+    font-size: medium;
+}
+
+.footerHijo2 p{ 
+    font-family: 'Poppins'sans-serif;
+    font-size: x-large;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footerHijo2 li{ 
+    margin-left: 53px;
+    list-style-type: none;
+    display: inline;
+}
+
+.footerHijo2 li a :hover{ 
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.footerHijo3 {
+    justify-content: center;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.footerHijo3 p{ 
+    font-family: 'Poppins'sans-serif;
+    font-size: x-large;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footerHijo3 li{ 
+    margin-left: 65px;
+    list-style-type: none;
+    display: inline;
+}
+
+.footerHijo3 li a :hover{ 
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+
+.copyright {
+    font-family: 'Poppins' sans-serif;
+    font-size: medium;
+    font-weight: 200;
+    color: white;
+    background-color: #07396B;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 15px 5px;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    border: 3px solid lightblue;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.divFormulario {
+    background-color: #f2f2f2;
+    padding: 60px;
+    text-align: center;
+}
+
+.labelLeft{
+    margin-right: 380px;
+}
+
+.quienesSomosDiv{
+    width: 50%;
+    display: flex;
+    margin: 0px auto;
+}
+
+.divCentrado{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.card {
+    margin: 20px 30px;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(1,1,1,1.6);
+}
+
+.card h4, .card p {
+    text-align: center;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.divRelojes{
+    display: flex;
+    text-align: center;
+}
+
+.smartwatchs{
+    margin: 20px 30px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.smartwatchs a{
+    color: black;   
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.verMas{
+    width: 16%;
+    padding: 5px;
+    background-color: #add8e6;
+    margin: 0 auto;
+}
+
+.verMas:hover{
+    transition: 1s;
+    background-color: #71b0c5;
+}
+
+.divBlog{
+    display: flex;
+}
+
