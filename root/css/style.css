@@ -16,7 +16,7 @@
 }
 
 .tarjetaCompleta{
-    background-color: #07396B;
+    background-image: linear-gradient(to bottom, #476F96, #193A67);
 }
 
 section{
@@ -133,6 +133,10 @@ section{
     text-align: center;
     border: 2px solid #D3D3D3;
     border-radius: 25px;
+    transition: 1s;
+}
+.foto:hover {
+  background-color: #CECECE;
 }
 
 /* .foto img {
@@ -141,7 +145,10 @@ section{
 
 .titulow26{
     margin-top: 45px;
+    /* transition: all 1s; */
 }
+/* .titulow26:hover {
+    background-color: #3B8CDE; */
 
 .fotoHover :hover{
     transform: scale(1.05);
@@ -166,7 +173,7 @@ section{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: #07396B;
+    background-image: linear-gradient(to bottom, #476F96, #193A67);
 }
 
 
